@@ -1,0 +1,4 @@
+body{background-color: hotpink;}
+h1{color: ivory;padding: 25px 50px 75px 100px ; background-color:rgb(185, 125, 242);margin: 25px 50px;}
+p{border: 3px solid pink; position: fixed; bottom: 0; right: 0; width: 300px ;}
+img{  position: absolute;bottom: 8px;left: 500px;font-size: 18px ;width: 30%;border: 30px solid pink;}
