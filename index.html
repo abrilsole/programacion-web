@@ -3,38 +3,162 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <title>DMTabaquismo</title>
+    <link rel="stylesheet" href="/Users/abrilsole/Documents/Programacion web/programacion-web/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header></header>
-    <main></main>
-    <h1>Tu Vieja</h1>
-    <table >
-        <tr>
-          <th>Carlos</th>
-          <th>saul</th>
-          <th>menem</th>
-        </tr>
-        <tr>
-          <td>oooooo</td>
-          <td>aaaaaaa</td>
-          <td>eeeeee</td>
-        </tr>
-        <tr>
-          <td>uuuuuuu</td>
-          <td>aaaaaaa</td>
-          <td>ooooooo</td>
-        </tr>
-      </table>
-      <form>
-        <label for="fname">CARLOS:</label><br>
-        <input type="button" value="NO" id="sino" name="nosino"><br>
-        <label for="lname">SAUL:</label><br>
-        <input type="button" value="SI" id="sino" name="sisino">
-      </form>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil sed quaerat nulla, ipsa cumque itaque molestiae dignissimos porro ea molestias quidem expedita nam quisquam harum numquam, praesentium, commodi aperiam incidunt?</p>
-    <img src="https://img.freepik.com/fotos-premium/vieja-mujer-canosa-gesto-enojado-posando-casa_246836-3598.jpg?w=2000" alt="foto de tu vieja" width="20%">
-    <footer></footer>
-</body>
+    <header>
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <style>
+          /* Estilo para el contenedor que envuelve al carrusel */
+          #carruselContainer {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            height: 5vh; 
+            background-color: lightgray; /* Fondo del carrusel */
+          }
+      
+          /* Estilo para reducir el tamaño del carrusel */
+          #carouselExampleCaptions {
+            width: 100%; /* Ocupa todo el ancho disponible */
+            height: 5%; 
+          }
+      
+          /* Estilo para reducir el tamaño de las imágenes */
+          #carouselExampleCaptions img {
+            width: 100%; /* Ocupa todo el ancho */
+            height: 5%; 
+            object-fit: cover; /* Mantiene la proporción de la imagen y la ajusta */
+          }
+        </style>
+
+        <div 
+        class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="/Users/abrilsole/Documents/Programacion web/programacion-web/Imagenes web/IMG_6733.jpg" class="d-block w-100" alt="Imagen 1" style="width: 100%; height: 20%;">
+            <div class="carousel-caption d-none d-md-block">
+              <h1>Deja de fumar</h1>
+              <p>Diana Millan cardiologa y especialista en tabaquismo</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="/Users/abrilsole/Documents/Programacion web/programacion-web/Imagenes web/IMG_6736.jpg" class="d-block w-100" alt="Imagen 2" style="width: 100%; height: 20%;">
+            <div class="carousel-caption d-none d-md-block">
+              <h1>Deja de fumar</h1>
+              <p>Diana Millan cardiologa y especialista en tabaquismo</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="/Users/abrilsole/Documents/Programacion web/programacion-web/Imagenes web/IMG_6735.jpg" class="d-block w-100" alt="Imagen 3" style="width: 100%; height: 20%;">
+            <div class="carousel-caption d-none d-md-block">
+              <h1>Deja de fumar</h1>
+              <p>Diana Millan cardiologa y especialista en tabaquismo</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </header>
+    <div class="todo-el-content" >
+      <div class="content">
+      <p><strong>Recupera Tu Libertad: Supera el Tabaquismo y Vive en Plenitud</strong></p>
+
+        <p>
+      Querido visitante,
+      <br><br>
+      Permíteme brindarte información valiosa sobre el tabaquismo y sus consecuencias para tu salud. Soy el Dr. [Nombre], y estoy aquí para ayudarte en tu camino hacia una vida libre de tabaco.
+      <br><br>
+      El tabaquismo es más que un hábito; es una adicción que afecta a millones de personas en todo el mundo. La nicotina presente en los cigarrillos es altamente adictiva y puede causar dependencia física y psicológica. Fumar no solo daña tus pulmones y corazón, sino que también está vinculado a una serie de enfermedades crónicas que pueden reducir tu calidad de vida e incluso poner en peligro tu existencia.
+      <br><br>
+      <strong>Consecuencias del Tabaquismo:</strong>
+      <br><br>
+      1. <strong>Enfermedades Respiratorias:</strong> Fumar causa daño significativo a tus pulmones, lo que conduce a enfermedades como bronquitis crónica, enfisema y cáncer de pulmón.
+      <br><br>
+      2. <strong>Enfermedades Cardiovasculares:</strong> El tabaquismo daña el sistema circulatorio, aumentando el riesgo de hipertensión, enfermedad cardíaca y accidente cerebrovascular.
+      <br><br>
+      3. <strong>Cáncer:</strong> El tabaquismo está directamente relacionado con diversos tipos de cáncer, incluyendo el de pulmón, garganta, boca, esófago, vejiga y más.
+      <br><br>
+      4. <strong>Problemas Dentales y de Piel:</strong> Fumar puede provocar decoloración dental, enfermedades de las encías, arrugas prematuras y manchas en la piel.
+      <br><br>
+      5. <strong>Disfunción Eréctil:</strong> Los hombres fumadores tienen más probabilidades de experimentar problemas de erección debido al daño en los vasos sanguíneos.
+      <br><br>
+      <strong>Tu Oportunidad de Cambiar:</strong>
+      <br><br>
+      Dejar de fumar es un paso fundamental hacia una vida más saludable y plena. Nuestro objetivo es brindarte el apoyo necesario para superar esta adicción. Contamos con estrategias efectivas, recursos y un equipo de profesionales de la salud dispuestos a acompañarte en este viaje hacia un futuro sin humo.
+      <br><br>
+      Te invitamos a explorar nuestro sitio web y descubrir las herramientas que te ayudarán a dejar el tabaco de una vez por todas. Juntos, podemos lograrlo y llevar una vida llena de energía, vitalidad y bienestar.
+      <br><br>
+      ¡Toma la decisión de liberarte del tabaquismo y disfruta de los beneficios de una vida sin humo!
+      <br><br>
+      Con esperanza y dedicación,
+      <br><strong>Dr. [Nombre]</strong>
+      <br>Experto en dejar de fumar y salud pulmonar
+      </p>
+      </div>
+        
+      <div class="columna-izquierda">
+        <h4>Estás dispuesto/a a dejar de fumar en este momento?</h4>
+        <button class="btn btn-primary" type="button">SI</button>
+        <button class="btn btn-primary" type="button">NO</button>
+        <br><br>
+        <h4>¿Has identificado las razones por las que deseas dejar de fumar?</h4>
+        <button class="btn btn-primary" type="button">SI</button>
+        <button class="btn btn-primary" type="button">NO</button>
+        <br><br>
+        <h4>¿Estás informado/a sobre los riesgos para la salud asociados con el tabaquismo y estás comprometido/a a dejarlo?</h4>
+        <button class="btn btn-primary" type="button">SI</button>
+        <button class="btn btn-primary" type="button">NO</button>
+        <br><br>
+        <h4>Probaste algún tratamiento para dejar de fumar?</h4>
+        <button class="btn btn-primary" type="button">SI</button>
+        <button class="btn btn-primary" type="button">NO</button>
+        <br><br>
+        <h4>¿Estás dispuesto/a a realizar cambios en tu estilo de vida para dejar de fumar?</h4>
+        <button class="btn btn-primary" type="button">SI</button>
+        <button class="btn btn-primary" type="button">NO</button>
+        <br><br>
+        <h4>¿Estás comprometido/a a dejar de fumar, sin importar los desafíos que enfrentes?</h4>
+        <button class="btn btn-primary" type="button">SI</button>
+        <button class="btn btn-primary" type="button">NO</button>
+        <br><br>
+        <h4>¿Estás dispuesto/a a comprometerte a llevar un registro de tu progreso en el proceso de dejar de fumar?</h4>
+        <button class="btn btn-primary" type="button">SI</button>
+        <button class="btn btn-primary" type="button">NO</button>
+        <br><br>
+        <h4>¿Estás preparado/a para buscar estrategias y técnicas que te ayuden a controlar los antojos de nicotina?</h4>
+        <button class="btn btn-primary" type="button">SI</button>
+        <button class="btn btn-primary" type="button">NO</button>
+        <br><br>
+        
+        
+
+      </div>
+    </div>
+</body> 
+<footer>    
+    <div class="container">
+      <div class="contact-info">
+        <h2>Datos de contacto:</h2>
+        <p>Teléfono: (123) 456-7890</p>
+        <p>Emil: info@example.com</p>
+        <p>Dirección: Calle Falsa #123, Ciudad Ficticia</p>
+      </div>
+    </div>
+</footer>
+
 </html>

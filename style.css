@@ -1,4 +1,58 @@
-body{background-color: hotpink;}
-h1{color: ivory;padding: 25px 50px 75px 100px ; background-color:rgb(185, 125, 242);margin: 25px 50px;}
-p{border: 3px solid pink; position: fixed; bottom: 0; right: 0; width: 300px ;}
-img{  position: absolute;bottom: 8px;left: 500px;font-size: 18px ;width: 30%;border: 30px solid pink;}
+
+.todo-el-content {
+    display: flex;
+    height: 100%;
+    background-color:rgb(181, 197, 215);
+}
+.body {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    height: 100%;
+    margin: 0;
+    background-color:rgb(181, 197, 215);}
+
+@media (min-width: 768px) 
+{
+    .contenedor 
+    {
+    flex-direction: row;
+    padding: 50px;
+    background-color: lightgray;
+    }}
+/* Estilos para la etiqueta p dentro de .content */
+.content p {
+    color: black;
+    font-size: 18px;
+    line-height: 1.6;    
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+.content {
+    margin-left: auto; /* Mueve el div hacia la derecha */
+    width: 70%; /* Establece un ancho para el div */
+    padding: 20px; /* Añade un poco de relleno para separar el contenido del borde */}
+
+.carousel-item h1,
+.carousel-item p {
+    color: black;
+}
+
+.columna-izquierda {
+    width: 30%;
+    background-color: lightgray;
+    padding: 20px;}
+
+.carousel-inner h1,
+.carousel-inner p {
+    color: black;
+}
+
+.container {
+    background-color: rgb(228, 188, 212);
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+
