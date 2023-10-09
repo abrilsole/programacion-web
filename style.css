@@ -4,13 +4,25 @@
     height: 100%;
     background-color:rgb(181, 197, 215);
 }
-.body {
+body {
     display: flex;
     flex-direction: column;
-    padding: 20px;
     height: 100%;
     margin: 0;
     background-color:rgb(181, 197, 215);}
+
+
+  /* Estilo para reducir el tamaño del carrusel */
+#carouselExampleCaptions {
+    width: 100%; /* Ocupa todo el ancho disponible */
+}
+
+  /* Estilo para reducir el tamaño de las imágenes */
+#carouselExampleCaptions img {
+  width: 100%; /* Ocupa todo el ancho */
+  height: 5%; 
+  object-fit: cover; /* Mantiene la proporción de la imagen y la ajusta */
+}
 
 @media (min-width: 768px) 
 {
