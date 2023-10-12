@@ -7,10 +7,12 @@
 body {
     display: flex;
     flex-direction: column;
-    height: 100%;
     margin: 0;
     background-color:rgb(181, 197, 215);}
 
+#navegador{
+    background-color: whitesmoke;
+}
 
   /* Estilo para reducir el tamaño del carrusel */
 #carouselExampleCaptions {
@@ -20,27 +22,21 @@ body {
   /* Estilo para reducir el tamaño de las imágenes */
 #carouselExampleCaptions img {
   width: 100%; /* Ocupa todo el ancho */
-  height: 5%; 
+height: 5%; 
   object-fit: cover; /* Mantiene la proporción de la imagen y la ajusta */
 }
 
-@media (min-width: 768px) 
-{
-    .contenedor 
-    {
-    flex-direction: row;
-    padding: 50px;
-    background-color: lightgray;
-    }}
+
+
 /* Estilos para la etiqueta p dentro de .content */
-.content p {
+.content p{
     color: black;
     font-size: 18px;
     line-height: 1.6;    
     font-family: Arial, sans-serif;
     text-align: center;
 }
-.content {
+.content{
     margin-left: auto; /* Mueve el div hacia la derecha */
     width: 70%; /* Establece un ancho para el div */
     padding: 20px; /* Añade un poco de relleno para separar el contenido del borde */}
@@ -50,7 +46,7 @@ body {
     color: black;
 }
 
-.columna-izquierda {
+.columna-izquierda{
     width: 30%;
     background-color: lightgray;
     padding: 20px;}
@@ -60,11 +56,45 @@ body {
     color: black;
 }
 
-.container {
+.container{
     background-color: rgb(228, 188, 212);
     color: black;
-    padding: 20px;
+    width: 100%;
+    margin: 0;
     text-align: center;
 }
 
+
+@media only screen and (max-width:600px){
+
+   #carouselExampleCaptions{
+    display: none;
+    }
+
+    body{
+        margin: 0;
+        background-color:rgb(181, 197, 215);}
+
+   .todo-el-content {
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(181, 197, 215);
+    width: 100%;
+    }
+
+    .content {
+        padding: 20px; /* Añade un poco de relleno para separar el contenido del borde */
+        width: 100%;
+    }
+
+    
+    .columna-izquierda {
+        background-color: lightgray;
+        padding: 20px;
+        width: 100%;
+    }
+
+
+
+}
 
