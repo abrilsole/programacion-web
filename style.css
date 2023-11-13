@@ -1,100 +1,59 @@
 
-.todo-el-content {
-    display: flex;
-    height: 100%;
-    background-color:rgb(181, 197, 215);
-}
 body {
-    display: flex;
-    flex-direction: column;
     margin: 0;
-    background-color:rgb(181, 197, 215);}
+    border: 0;
+    padding: 0;}
 
-#navegador{
-    background-color: whitesmoke;
-}
+/* _____________ */
 
-  /* Estilo para reducir el tamaño del carrusel */
-#carouselExampleCaptions {
-    width: 100%; /* Ocupa todo el ancho disponible */
-}
+.container-fluid {background-color: rgb(244, 217, 236);}
 
-  /* Estilo para reducir el tamaño de las imágenes */
-#carouselExampleCaptions img {
-  width: 100%; /* Ocupa todo el ancho */
-height: 5%; 
-  object-fit: cover; /* Mantiene la proporción de la imagen y la ajusta */
-}
-
-
-
-/* Estilos para la etiqueta p dentro de .content */
-.content p{
-    color: black;
-    font-size: 18px;
-    line-height: 1.6;    
-    font-family: Arial, sans-serif;
+/* imagen + titulo principal */
+.nombre-foto {
+    position: relative;
     text-align: center;
 }
-.content{
-    margin-left: auto; /* Mueve el div hacia la derecha */
-    width: 70%; /* Establece un ancho para el div */
-    padding: 20px; /* Añade un poco de relleno para separar el contenido del borde */}
 
-.carousel-item h1,
-.carousel-item p {
-    color: black;
+.foto1{
+    width: 1400px; 
+    height: 400px; 
 }
-
-.columna-izquierda{
-    width: 30%;
-    background-color: lightgray;
-    padding: 20px;}
-
-.carousel-inner h1,
-.carousel-inner p {
-    color: black;
+.titulo-principal{
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: black; 
+    padding: 10px;
 }
-
-.container{
+/* imagen + titulo principal */
+.info{
+    background-color:rgb(181, 197, 215);
+    position: relative;
+    width: 70%; 
+    float: left; 
+    padding: 20px;
+    box-sizing: border-box; 
+    border: 1px solid #ccc; 
+}
+.beneficios {
     background-color: rgb(228, 188, 212);
-    color: black;
-    width: 100%;
-    margin: 0;
-    text-align: center;
+    position: relative;
+    float: right;
+    width: 30%; 
+    padding: 20px;
+    box-sizing: border-box; 
+    border: 1px solid #ccc; 
 }
+/* _____________ */
+
 
 
 @media only screen and (max-width:600px){
 
-   #carouselExampleCaptions{
-    display: none;
-    }
 
     body{
         margin: 0;
         background-color:rgb(181, 197, 215);}
-
-   .todo-el-content {
-    display: flex;
-    flex-direction: column;
-    background-color:rgb(181, 197, 215);
-    width: 100%;
-    }
-
-    .content {
-        padding: 20px; /* Añade un poco de relleno para separar el contenido del borde */
-        width: 100%;
-    }
-
-    
-    .columna-izquierda {
-        background-color: lightgray;
-        padding: 20px;
-        width: 100%;
-    }
-
-
-
 }
 

@@ -9,69 +9,51 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header>
-      <nav class="navbar navbar-expand-lg bg-body-tertiary" id="navegador">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">QS</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" href="#todoelcont">Beneficios</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#cuestionario">Cuestionario</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-      <div id="carouselExampleCaptions" class="carousel slide">
-        
-
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="./Imagenes web/IMG_6733.jpg" class="d-block w-100" alt="Imagen 1" style="width: 100%; height: 20%;">
-            <div class="carousel-caption d-none d-md-block">
-              <h1>Deja de fumar</h1>
-              <p>Diana Millan cardiologa y especialista en tabaquismo</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="./Imagenes web/IMG_6736.jpg" class="d-block w-100" alt="Imagen 2" style="width: 100%; height: 20%;">
-            <div class="carousel-caption d-none d-md-block">
-              <h1>Deja de fumar</h1>
-              <p>Diana Millan cardiologa y especialista en tabaquismo</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="./Imagenes web/IMG_6735.jpg" class="d-block w-100" alt="Imagen 3" style="width: 100%; height: 20%;">
-            <div class="carousel-caption d-none d-md-block">
-              <h1>Deja de fumar</h1>
-              <p>Diana Millan cardiologa y especialista en tabaquismo</p>
-            </div>
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+<!-- BARRA DE MENU -->   
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+<!-- home  -->     
+      <a class="navbar-brand" href="#home">home</a>
+<!-- home  -->       
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+<!-- quien soy  -->             
+            <a class="nav-link active" aria-current="page" href="/Users/abrilsole/Documents/Programacion web/programacion-web/quiensoy.html">quien soy</a>
+<!-- quien soy  -->             
+          </li>
+          <li class="nav-item">
+<!-- tratamientos  -->             
+            <a class="nav-link" href="/Users/abrilsole/Documents/Programacion web/programacion-web/tratamientos.html">tratamientos</a>  
+<!-- tratamientos  --> 
+          </li>
+          <li class="nav-item">
+<!-- turnos  -->             
+            <a class="nav-link" href="#">turnos</a>
+<!-- turnos  -->   
+<!-- recetas  --> 
+<li class="nav-item">
+  <a class="nav-link" href="/Users/abrilsole/Documents/Programacion web/programacion-web/recetas.html">recetas</a>  
+</li>
+<!-- recetas  -->        
+        </ul>
       </div>
-    </header>
-    <div class="todo-el-content" id="todoelcont" >
-      <div class="content">
-        <p><strong>Recupera Tu Libertad: Supera el Tabaquismo y Vive en Plenitud</strong></p>
+    </div>
+  </nav>
+<!-- BARRA DE MENU -->  
+
+<!-- TITULO + FOTO --> 
+<div class="nombre-foto">
+<img class="foto1" src="/Users/abrilsole/Documents/Programacion web/programacion-web/Imagenes web/IMG_6735.jpg" alt=""> 
+<h1 class="titulo-principal">Deja de fumar</h1> 
+</div>
+<!-- TITULO + FOTO  --> 
+
+  <div class="info">
+        <p id="home" ><strong>Recupera Tu Libertad: Supera el Tabaquismo y Vive en Plenitud</strong></p>
 
           <p>
         Querido visitante,
@@ -102,58 +84,27 @@
         <br><br>
         Con esperanza y dedicación,
         <br><strong>Dr. [Nombre]</strong>
-        <br>Experto en dejar de fumar y salud pulmonar
+        <br>Experto en dejar de fumar y salud pulmonar <br><br><br><br><br>
         </p>
       </div>
-        
-      <div class="columna-izquierda" id="cuestionario">
-        <h4>Estás dispuesto/a a dejar de fumar en este momento?</h4>
-        <button class="btn btn-primary" type="button">SI</button>
-        <button class="btn btn-primary" type="button">NO</button>
-        <br><br>
-        <h4>¿Has identificado las razones por las que deseas dejar de fumar?</h4>
-        <button class="btn btn-primary" type="button">SI</button>
-        <button class="btn btn-primary" type="button">NO</button>
-        <br><br>
-        <h4>¿Estás informado/a sobre los riesgos para la salud asociados con el tabaquismo y estás comprometido/a a dejarlo?</h4>
-        <button class="btn btn-primary" type="button">SI</button>
-        <button class="btn btn-primary" type="button">NO</button>
-        <br><br>
-        <h4>Probaste algún tratamiento para dejar de fumar?</h4>
-        <button class="btn btn-primary" type="button">SI</button>
-        <button class="btn btn-primary" type="button">NO</button>
-        <br><br>
-        <h4>¿Estás dispuesto/a a realizar cambios en tu estilo de vida para dejar de fumar?</h4>
-        <button class="btn btn-primary" type="button">SI</button>
-        <button class="btn btn-primary" type="button">NO</button>
-        <br><br>
-        <h4>¿Estás comprometido/a a dejar de fumar, sin importar los desafíos que enfrentes?</h4>
-        <button class="btn btn-primary" type="button">SI</button>
-        <button class="btn btn-primary" type="button">NO</button>
-        <br><br>
-        <h4>¿Estás dispuesto/a a comprometerte a llevar un registro de tu progreso en el proceso de dejar de fumar?</h4>
-        <button class="btn btn-primary" type="button">SI</button>
-        <button class="btn btn-primary" type="button">NO</button>
-        <br><br>
-        <h4>¿Estás preparado/a para buscar estrategias y técnicas que te ayuden a controlar los antojos de nicotina?</h4>
-        <button class="btn btn-primary" type="button">SI</button>
-        <button class="btn btn-primary" type="button">NO</button>
-        <br><br>
-        
-        
-
-      </div>
-    </div>
+    </div>     
+  <div class="beneficios">
+    <p>
+      <br>
+      Dejar de fumar conlleva una serie de beneficios significativos para la salud y el bienestar general. Al renunciar al hábito del tabaco, experimentarás:
+      <ul>
+        <li><strong>Mejora en la salud pulmonar:</strong> La función pulmonar se restablece, disminuyendo el riesgo de enfermedades respiratorias como la bronquitis y la enfermedad pulmonar obstructiva crónica (EPOC).</li><br>
+        <li><strong>Reducción del riesgo cardiovascular:</strong> Dejar de fumar disminuye la presión arterial y mejora la circulación sanguínea, reduciendo así el riesgo de enfermedades cardíacas y accidentes cerebrovasculares.</li><br>
+        <li><strong>Incremento de la energía y resistencia:</strong> Al abandonar el tabaco, notarás un aumento en la energía y resistencia física, facilitando la participación en actividades diarias y ejercicio.</li><br>
+        <li><strong>Mejora del sentido del gusto y olfato:</strong> La capacidad de saborear y oler los alimentos se recupera, proporcionando una experiencia más rica y placentera en las comidas.</li><br>
+        <li><strong>Piel más saludable:</strong> La piel tiende a mejorar su apariencia al dejar de fumar, ya que se reduce la cantidad de sustancias químicas que afectan la elasticidad y el colágeno.</li><br>
+        <li><strong>Ahorro económico:</strong> Dejar de comprar cigarrillos resulta en un ahorro significativo a largo plazo, mejorando tu situación financiera.</li><br>
+        <li><strong>Mejora en la calidad de vida:</strong> En general, abandonar el hábito del tabaco conlleva una mejora sustancial en la calidad de vida, contribuyendo a un envejecimiento más saludable y a una mayor longevidad.</li><br>
+      </ul>
+      <br><br><br><br>
+    </p>
+    
+  </div>  
 </body> 
-<footer>    
-    <div class="container">
-      <div class="contact-info">
-        <h2>Datos de contacto:</h2>
-        <p>Teléfono: (123) 456-7890</p>
-        <p>Emil: info@example.com</p>
-        <p>Dirección: Calle Falsa #123, Ciudad Ficticia</p>
-      </div>
-    </div>
-</footer>
 
 </html>
