@@ -10,19 +10,20 @@ body {
 
 /* imagen + titulo principal */
 .nombre-foto {
-    position: relative;
-    text-align: center;
+    width: 100%;
+
 }
 
 .foto1{
-    width: 1400px; 
+    width: 100%; 
     height: 400px; 
+}
+#titPrinDiv{
+    display: flex;
+    justify-content: center;
 }
 .titulo-principal{
     position: absolute;
-    top: 10px;
-    left: 50%;
-    transform: translateX(-50%);
     color: black; 
     padding: 10px;
 }
@@ -59,11 +60,26 @@ body {
 
 }
 
-@media only screen and (max-width:600px){
 
+
+@media only screen and (max-width:600px){
 
     body{
         margin: 0;
         background-color:rgb(181, 197, 215);}
+    #divdata{
+    display: flex;
+    flex-direction: column;
+}
+#divdata{
+    display: flex;
+    flex-direction: column;
+}
+.info{
+    width: 100%;
+}
+.beneficios{
+    width:100%;
+}
 }
 
