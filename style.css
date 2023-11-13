@@ -47,7 +47,12 @@ body {
 }
 /* _____________ */
 
-
+#pedirRecetaDiv{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
 
 @media only screen and (max-width:600px){
 

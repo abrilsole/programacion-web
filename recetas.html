@@ -9,21 +9,21 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </head>
 <body>
-    <h1>Pida su receta</h1>
-<div class="container">
+    <div id="pedirRecetaDiv"><h1>Pida su receta</h1>
+<div class="container"> 
         <div class="row justify-content-center">
             <div class="col-md-6">
-                <form class="row g-3" id="miFormulario">
+                <form class="row g-3" id="miFormulario" action="https://formsubmit.co/absole@itba.edu.ar" method="POST">
                     <div class="col-12">
                         <label for="inputEmail4" class="form-label">Mail</label>
                         <input type="email" class="form-control" id="inputEmail14" placeholder="name@example.com" required>
                     </div>
                     <div class="col-12">
                         <label for="inputname" class="form-label">Nombre</label>
-                        <input type="password" class="form-control" id="inputname">
+                        <input type="password" class="form-control" id="inputname" placeholder="nombre">
                     </div>
                     <div class="col-12">
-                        <label for="inputporpuse" class="form-label">razon de la receta</label>
+                        <label for="inputporpuse" class="form-label">Razon de la receta</label>
                         <input type="text" class="form-control" id="inputporpuse" placeholder="Nombre del medicamento">
                     </div>
                     <div class="col-12">
@@ -34,12 +34,22 @@
                         </div>
                     </div>
                     <div class="col-12">
-                        <button type="submit" class="btn btn-primary">pedir receta </button>
+                        <button type="submit" class="btn btn-primary">Pedir receta </button>
                     </div>
                 </form>
             </div>
-        </div>
-    </div> 
+        </div> 
+<div>
+    
+        <!-- <form action="https://formsubmit.co/absole@itba.edu.ar" method="POST">
+            <br> <br>
+            <input type="text" name="name" required> <br> <br>
+            <input type="email" name="email" required> <br> <br>
+            <button type="submit">Send</button>
+        </form> -->
+
+
+
 <!-- JAVA SCRIPT -->
 <script src="/Users/abrilsole/Documents/Programacion web/programacion-web/main.js"></script>
 <!-- JAVA SCRIPT -->   
