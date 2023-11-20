@@ -1,5 +1,6 @@
 
 body {
+    background-color: rgb(228, 188, 212);
     margin: 0;
     border: 0;
     padding: 0;}
@@ -51,15 +52,14 @@ body {
 #h1receta{
     text-align: center;
     margin: 35px 0 20px 0 !important;
-  }
+}
 .container1{
- padding-left: 10%;
- padding-right: 10%;
- padding-top: 3%;
+padding-left: 10%;
+padding-right: 10%;
+padding-top: 3%;
     
 
 }
-
 
 
 @media only screen and (max-width:600px){

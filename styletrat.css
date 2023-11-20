@@ -1,0 +1,53 @@
+/* _____________ animacion lista __________*/
+ul {
+    list-style: none;
+    padding: 0;
+    }
+li {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+    }
+.show {
+    opacity: 1;
+    transform: translateY(0);
+    }
+/* _____________ animacion lista __________*/
+img {
+    width: 300px;  /* Ancho fijo de 300 píxeles */
+    height: auto;
+}
+.listatrat{
+    background-color: rgb(228, 188, 212);
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
+#conclutart{
+    text-align: center;}
+.tittrat{
+    text-align: center;
+    background-color: rgb(198, 225, 241);}
+
+
+@media only screen and (max-width:600px){
+
+        body{
+            margin: 0;
+            background-color:rgb(181, 197, 215);}
+        #divdata{
+        display: flex;
+        flex-direction: column;
+    }
+    #divdata{
+        display: flex;
+        flex-direction: column;
+    }
+    .info{
+        width: 100%;
+    }
+    .beneficios{
+        width:100%;
+    }
+    }    
