@@ -61,6 +61,11 @@ padding-top: 3%;
 
 }
 
+#turnos{ 
+    text-align: center;
+    margin-top: 50vh; /* Ajusta la mitad de la altura del viewport */
+    margin-bottom: 50vh; /* Ajusta la mitad de la altura del viewport */
+}
 
 @media only screen and (max-width:600px){
 

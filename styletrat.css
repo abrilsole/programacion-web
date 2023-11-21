@@ -30,6 +30,26 @@ img {
     text-align: center;
     background-color: rgb(198, 225, 241);}
 
+/* <!-- BARRA DE MENU -->   */
+.navbar a {
+    margin-right: 200px; 
+}
+/* <!-- BARRA DE MENU -->   */
+
+/* <!-- QUIEN SOY-->   */
+.nomfoto {
+    background-color: rgb(198, 225, 241);
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Añadido para separar el h1 y la imagen */
+    padding: 20px; /* Ajusta el espaciado según sea necesario */
+}
+.nomfoto img {
+    width: 300px;
+    height: auto;
+}
+#listaqs{background-color: rgb(236, 223, 219);}
+/* <!-- QUIEN SOY-->   */
 
 @media only screen and (max-width:600px){
 

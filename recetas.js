@@ -16,6 +16,9 @@ function cantrestantes() {
                 let rrestantes = 10 - cantRusuario;
                 alert(`Le quedan ${rrestantes} recetas`);
                 break; // Salir del bucle si la entrada es válida
+            } else if (cantRusuario >= 10) {
+                alert(`No le quedan más recetas`);
+                break; // Salir del bucle si la entrada es válida    
             } else {
                 alert('Por favor, ingrese un número mayor a 0 y menor a 10.');
             }
